@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Red T-shirt",
+        "price": 200,
+        "stock": 69
+    },
+    {
+        "id": 2,
+        "name": "Blue T-shirt",
+        "price": 300,
+        "stock": 80
+    },
+    {
+        "id": 3,
+        "name": "White T-shirt",
+        "price": 250,
+        "stock": 88
+    },
+    {
+        "id": 4,
+        "name": "Jeans",
+        "price": 500,
+        "stock": 48
+    },
+    {
+        "id": 5,
+        "name": "Black Jacket",
+        "price": 1000,
+        "stock": 30
+    },
+    {
+        "id": 6,
+        "name": "Boot",
+        "price": 700,
+        "stock": 7
+    },
+    {
+        "id": 7,
+        "name": "White Sneakers",
+        "price": 1200,
+        "stock": 8
+    },
+    {
+        "id": 8,
+        "name": "Leather Belt",
+        "price": 100,
+        "stock": 46
+    }
+]
