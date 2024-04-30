@@ -1,5 +1,6 @@
 from typing import List, Optional
-from entities import Product, Inventory, Cart, Order, OrderProcessing
+from entities import Product, Inventory, Cart, Order, OrderProcessing, sms
+
 
 class CustomerMode:
     """
@@ -120,3 +121,5 @@ class CustomerMode:
             order_status: bool = OrderProcessing(order, self.__inventory_manager).place_order()
             if order_status:
                 print(f"\nYour order has been placed successfully! Thank you for shopping with us, {self.__customer_name} :).")
+                sms.send_sms("Your Order is on the way")
+                
