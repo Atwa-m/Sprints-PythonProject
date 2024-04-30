@@ -2,8 +2,8 @@ import boto3
 
 client = boto3.client(
     "sns",
-    aws_access_key_id = "AKIA3GSKDKMQOXQ7YNXB",
-    aws_secret_access_key = "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",
+    aws_access_key_id = "ENTERACCESSKEY",
+    aws_secret_access_key = "ENTESECRETACCESSKEY",
     region_name = "us-east-1"
 )
 

@@ -121,5 +121,8 @@ class CustomerMode:
             order_status: bool = OrderProcessing(order, self.__inventory_manager).place_order()
             if order_status:
                 print(f"\nYour order has been placed successfully! Thank you for shopping with us, {self.__customer_name} :).")
+            try:
                 sms.send_sms("Your Order is on the way")
+            except:
+                pass
                 
